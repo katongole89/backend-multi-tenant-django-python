@@ -13,13 +13,12 @@ class SimpleTenancyApiView(APIView):
     	elif company_url == 'pilot':
     		data = {
     			'status': 'success',
-    			'company_name': 'app company'
+    			'company_name': 'pilot company'
     		}
     	else:
     		data = {
     			'status': 'failed',
     			'company_name': 'No comapany'
     		}
-
-        return Response(data, status=alt_status.HTTP_200_OK)
+    	return Response(data, status=alt_status.HTTP_200_OK)
 
