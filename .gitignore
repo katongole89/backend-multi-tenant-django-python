@@ -1,0 +1,15 @@
+.idea/
+.env
+venv/
+settings/local.py
+**/migrations/**
+media/
+__pycache__/
+*.pyc
+*~
+*.swp
+prac.py
+prac2.py
+commandz
+stderr.log
+
